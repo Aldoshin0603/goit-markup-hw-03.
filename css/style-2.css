@@ -279,7 +279,7 @@ h6 {
 
 .unique-container{
     display: flex;
-    margin-bottom: 30px;
+
 
 }
 
@@ -288,7 +288,7 @@ h6 {
     margin-right: 30px;
 
 }
-.unique-container:last-child{
+.unique-list:last-child{
     margin-right: 0px;
 }
 
