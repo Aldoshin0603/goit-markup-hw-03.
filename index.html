@@ -371,6 +371,17 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="subscription">
+                <h4>ПОДПИШИСЬ НА РАССЫЛКУ</h4>
+                <label>
+                    Email
+                    <input type="text" name="" placeholder="E-mail"/>
+                  </label>
+                  <button type="submit">Подписаться</button>
+                </form>
+
+            </div>
         </div>
    
     </footer>
@@ -381,39 +392,46 @@
             <p class="modal-titel">Оставте свои данные и мы вам перезвоним </p> 
             <div class="modal-file">
             <form action="# " class="modal-form">
-                <label for="usar name">Ваше имя</label>
-                <input
-                type="file" 
-                class="modal-input"
-                placeholder="ваша почта"
-                name="user-name"
-                minlength=""
-                id="user email"
-                   />
-
-                </div>
-                <div class="modal-flaks">
-                    <label for="user name">Ваше имя</label>
-                    <input 
-                    type="text" 
+                <label for="usar name">Имя<input
+                    type="text" E
                     class="modal-input"
                     placeholder="ваша почта"
                     name="user-name"
-                    required
-                     />
-                    <input type="text" 
-                    class="modal-input" 
-                    placeholder="ваш телефон"
+                    minlength=""
+                    id="user email"
+                       /></label>
+                
+                   <label for="number">Телефон</label>
+                    <input 
+                    type="number" 
+                    class="modal-input"
+                    placeholder=""
                     name="user-name"
-                    title="=380 63 222 22 22"    
                     required
-                    id="user tel"
-                    /> 
-                </div>
-                <textarea name="user text" id="user text" cols="30" rows="10" class="modal-text"></textarea>
+                     /><label for="email">Почта<input 
+                        type="email" 
+                        class="modal-input"
+                        placeholder="ваша почта"
+                        name="user-name"
+                        required
+                        /></label>
+                     
+                     <label>
+                        <input type="checkbox" name="hobby" value="music" checked />
+                        Соглашаюсь с рассылкой и принимаю
+                        <a href="">Условия договора</a> 
+                      </label>
+
+
+                <textarea 
+                name="user text" 
+                id="user text" 
+                cols="30" 
+                rows="10" 
+                class="modal-text"></textarea>
               
-                <button type="cumbit">up</button>
-                <button type="reset">reset</button>
+                <button type="cumbit">отправить</button>
+                
             </form>
          </div>
          
